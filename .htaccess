@@ -1,0 +1,10 @@
+# Запрет прямого доступа к файлу конфигурации с вебхуками
+<Files "config.json">
+    Require all denied
+</Files>
+
+# Раскомментируйте и настройте для защиты всего инструмента:
+# AuthType Basic
+# AuthName "Bitrix Field Migrator"
+# AuthUserFile /path/to/.htpasswd
+# Require valid-user
